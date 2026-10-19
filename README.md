@@ -1,6 +1,12 @@
 # Workspace Repair Lab
 
+[![Python checks](https://github.com/Vibehigheric/workspace-repair-lab/actions/workflows/python-checks.yml/badge.svg)](https://github.com/Vibehigheric/workspace-repair-lab/actions/workflows/python-checks.yml)
+
 Small, standard-library Python tools for diagnosing development environments and demonstrating safe, reversible troubleshooting. Python 3.10+ with venv support required.
+
+## Automated checks
+
+GitHub Actions runs syntax checks, unit tests, the inventory and the isolated demo on Windows and Ubuntu with Python 3.10 and 3.13. Runs trigger on main-branch pushes, pull requests targeting main, or manual dispatch. Actions are pinned to commit hashes, repository permissions are read-only, checkout credentials are not retained and each job has a ten-minute limit. No secrets, deployments, package publishing or scheduled jobs are configured. Hosted-runner checks do not certify repairs on customer machines. The status badge shows actual CI results, not a guarantee of security. Review pinned action updates periodically; they are not updated automatically.
 
 ## Run
 
